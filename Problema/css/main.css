@@ -1,5 +1,5 @@
 div{
-	background-color:green; 
+	background-color:#8cb27c; 
 }
 .padre{
 	width:800px;
@@ -11,21 +11,22 @@ div{
 	height:300px;
 	position:absolute;
 	top:50px;
-	left: 50px;
+	left:50px;
 }
 .nietoDerecho{
 	border:1px white solid;
 	width:100px;
 	height:150px;
 	position:relative;
-	top:65px;
+	top:50px;
+	left:-1px;
 }
 .nietoIzquierdo{
 	border:1px white solid;
 	width:100px;
 	height:150px;
 	position:absolute;
-	top:65px;
+	top:50px;
 	left:600px;
 }
 .visnieto{
@@ -37,4 +38,19 @@ div{
  	top:68px;
 	left:260px;
 
+}
+.pelotaMayor{
+	position:absolute;
+	top:30px;
+	left:340px;
+}
+.pelotaMediana{
+	position:absolute;
+	top:10px;
+	left:90px;
+}
+.pelotaChica{
+	position:absolute;
+	top:130px;
+	right:103px;
 }
