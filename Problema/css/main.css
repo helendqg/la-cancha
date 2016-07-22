@@ -1,0 +1,40 @@
+div{
+	background-color:green; 
+}
+.padre{
+	width:800px;
+	height:400px;
+}
+.hijo{
+	border:1px white solid;
+	width:701px;
+	height:300px;
+	position:absolute;
+	top:50px;
+	left: 50px;
+}
+.nietoDerecho{
+	border:1px white solid;
+	width:100px;
+	height:150px;
+	position:relative;
+	top:65px;
+}
+.nietoIzquierdo{
+	border:1px white solid;
+	width:100px;
+	height:150px;
+	position:absolute;
+	top:65px;
+	left:600px;
+}
+.visnieto{
+	border:1px white solid;
+ 	border-radius:50%;
+ 	width:150px;
+ 	height:150px;
+ 	position:absolute;
+ 	top:68px;
+	left:260px;
+
+}
