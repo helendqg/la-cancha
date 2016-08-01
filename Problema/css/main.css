@@ -1,56 +1,59 @@
-div{
-	background-color:#8cb27c; 
+.cesped {
+	width: 900px;
+	height: 500px;
+	background-color: #8CB27C;
+	position: relative;
+	border: 1px solid white;	
+	padding: 20px;
+	box-sizing: border-box;
 }
-.padre{
-	width:800px;
-	height:400px;
-}
-.hijo{
-	border:1px white solid;
-	width:701px;
-	height:300px;
-	position:absolute;
-	top:50px;
-	left:50px;
-}
-.nietoDerecho{
-	border:1px white solid;
-	width:100px;
-	height:150px;
-	position:relative;
-	top:50px;
-	left:-1px;
-}
-.nietoIzquierdo{
-	border:1px white solid;
-	width:100px;
-	height:150px;
-	position:absolute;
-	top:50px;
-	left:600px;
-}
-.visnieto{
-	border:1px white solid;
- 	border-radius:50%;
- 	width:150px;
- 	height:150px;
- 	position:absolute;
- 	top:68px;
-	left:260px;
 
+.cancha {
+	border: 1px solid white;
+	height: 100%;
+	position: relative;
 }
-.pelotaMayor{
-	position:absolute;
-	top:30px;
-	left:340px;
+
+.arco {
+  border: 1px solid white;
+  width: 116px;
+  height: 193px;
+  top: 117px;	
 }
-.pelotaMediana{
-	position:absolute;
-	top:10px;
-	left:90px;
+
+.left {
+	position: relative;
+	left: -1px;	
 }
-.pelotaChica{
-	position:absolute;
-	top:130px;
-	right:103px;
+
+.right {
+	position: absolute;
+	right: -1px;
+}
+
+.circulo {
+	border: 1px solid white;
+	border-radius: 100%; 
+	width: 200px;
+	height: 200px;
+	position: absolute;
+  left: 38%;
+  top: 120px;	
+}
+
+.bola1 {
+  position: absolute;
+  top: 53px;
+  left: 435px;
+}
+.bola2 {
+  position: absolute;
+  top: 120px;
+  left: 104px;
+}
+
+.bola3 {
+  position: absolute;
+  top: 282px;
+  left: 711px;
 }
